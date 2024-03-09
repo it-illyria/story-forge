@@ -1,0 +1,27 @@
+.dashboard-design {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  & p {
+    margin-top: 50px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500 !important;
+    line-height: 40px;
+    letter-spacing: 0;
+    color: #414D55;
+  }
+}
+
+.dash-container {
+  margin-top: 50px;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: 40px;
+  letter-spacing: 0;
+  color: #414D55;
+}

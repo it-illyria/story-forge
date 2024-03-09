@@ -4,6 +4,11 @@
   "compilerOptions": {
     "outDir": "./dist/out-tsc",
     "baseUrl": "./src",
+    "paths": {
+      "@core/*": [
+        "app/core/*"
+      ]
+    },
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "strictPropertyInitialization": true,
